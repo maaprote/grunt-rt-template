@@ -1,0 +1,42 @@
+{
+  "name": "grunt-rt-template",
+  "description": "Generate HTML from template files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/maaprote/grunt-rt-template",
+  "author": {
+    "name": "maaprote",
+    "email": "maaprote@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maaprote/grunt-rt-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maaprote/grunt-rt-template/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/maaprote/grunt-rt-template/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+}

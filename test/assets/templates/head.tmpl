@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <ul class="nav">
+            <%
+                objData.forEach(function(item) {
+                    print(
+                        '<li>'+ item.name +'</li>'+
+                        '<li>'+ item.link +'</li>'
+                    );
+                });
+            %>
+        </ul>
+
+        <div class="main"></div>
+    </body>
+</html>
